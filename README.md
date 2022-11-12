@@ -1,49 +1,4 @@
-All code from this tutorial as a complete package is available in [this repository](https://github.com/alexeagleson/nextjs-fullstack-app-template).
-
-If you find this tutorial helpful, please share it with your friends and colleagues! For more like it you can subscribe on [Youtube](https://www.youtube.com/channel/UCV5YqK3AaInd3lYFQqlp7Lw) or follow me on [Twitter](https://twitter.com/eagleson_alex).
-
-This tutorial is available as a video lesson if you prefer that format:
-
-{% youtube Iu5aZDqZt8E %}
-
-## Table of Contents
-
-1. [What is Next.js?](#what-is-nextjs)
-1. [Introduction](#introduction)
-1. [Project Setup](#project-setup)
-1. [Engine Locking](#engine-locking)
-1. [Git Setup](#git-setup)
-1. [Code Formatting and Quality Tools](#code-formatting-and-quality-tools)
-1. [Git Hooks](#git-hooks)
-1. [VS Code Configuration](#vs-code-configuration)
-1. [Debugging](#debugging)
-1. [Directory Structure](#directory-structure)
-1. [Adding Storybook](#adding-storybook)
-1. [Creating a Component Template](#creating-a-component-template)
-1. [Using the Component Template](#using-the-component-template)
-1. [Adding a Custom Document](#adding-a-custom-document)
-1. [Adding Layouts](#adding-layouts)
-1. [Deployment](#deployment)
-1. [Next Steps](#next-steps)
-1. [Wrapping Up](#wrapping-up)
-
-## What is Next.js?
-
-_"Next.js gives you the best developer experience with all the features you need for production: hybrid static & server rendering, TypeScript support, smart bundling, route pre-fetching, and more. No config needed."_
-
-As described in their words above, Next.js is very much an all-in-one fullstack modern application building solution. It includes first class support for Typescript and React, while offering easy solutions for some of the most common requirements in a modern application like routing, API, postCSS tools, and code-splitting.
-
-It also supports both static site generation (for lightning fast static HTML pages that can be hosted anywhere) or with managed hosting services like Vercel/AWS/etc that run a Node server and support full on-demand data loading and server-side rendered pages.
-
-Next.js has quickly become one of the most in demand skills in the web development space. This tutorial aims to act as kind of a "practical" extension to the [documentation](https://nextjs.org/docs/getting-started) and help you set up a project using a lot of best practices that will improve your chances of keeping everything management as you scale.
-
-## Introduction
-
-This tutorial is not meant to replace the official documentation, which is absolutely fantastic. I highly recommend you take a read through at least the [basic features](https://nextjs.org/docs/basic-features/pages) section before you begin this tutorial, so you'll be familiar with the terminology and tools and some of the components they provide that are similar, but usually "more powerful" versions of their vanilla HTML counterparts.
-
-Please review the table of contents to get an idea of each of the topics we will be touching in this extensive tutorial. I will freely acknowledge many of them are strict and opinionated configurations, if any of tem don't appeal to you then in most cases you can simply skip over those sections and should still be able to complete the tutorial without too much trouble.
-
-Now, with all that said, if you are ready, let's dive right in!
+Initial commit based on this package available in [this repository](https://github.com/alexeagleson/nextjs-fullstack-app-template).
 
 ## Project Setup
 
@@ -64,10 +19,6 @@ yarn dev
 ```
 
 You should see the demo app available on [http://localhost:3000](http://localhost:3000)
-
-![First Page Load](https://res.cloudinary.com/dqse2txyi/image/upload/v1649125549/blogs/nextjs-fullstack-app-template/first-load_sm29jf.png)
-
-Also recommended to run
 
 ```
 yarn build
